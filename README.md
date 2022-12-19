@@ -10,9 +10,10 @@
 
 xrdp는 여러 개의 바이너리가 상호작용하는 방식으로 RDP server를 구현했다.
 
+![image](https://user-images.githubusercontent.com/58170265/208548303-9bb76bb8-993e-4780-9007-19df7f6d1c7d.png)
 
 
-![image-20221220082957833](C:\Users\PANDA\AppData\Roaming\Typora\typora-user-images\image-20221220082957833.png)
+
 
 # The bugs
 
@@ -613,4 +614,4 @@ main_arena를 덮을 수 있으므로 `_int_malloc` 이 NON_MAIN_ARENA bit가 se
 
 # Result
 
-![image-20221220083023504](C:\Users\PANDA\AppData\Roaming\Typora\typora-user-images\image-20221220083023504.png)
+![image](https://user-images.githubusercontent.com/58170265/208548240-bc1f65ec-9221-4b5e-80e5-062e3095569f.png)
